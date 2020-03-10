@@ -21,17 +21,29 @@ public class TipoDeDatos {
     char letra = 'A';
     String cadena = "hola mundo";
     boolean valorBool = false;
+    // valorBool = true;
     boolean valorBoola = true;
     
     
     public static void main(String[] args) {
+        imprimirNombre();
+        sumar2Numeros(1,2);
+        System.out.
+        println(sumar2Numeros(1,2));
         // TODO code application logic here
     }
     
+public static void imprimirNombre(){
+System.out.println("DIEGO");
 }
 
+public static int sumar2Numeros (int num1, int num2){
+    int sumar = num1 + num2;
+    return sumar;
+}
 // comentario de una linea
 
 /*
 comentario con parrafo
 */
+}
